@@ -1,11 +1,16 @@
-<img src="https://github.com/a86423387/Bible_Game/assets/130199998/7f947e64-49a9-42f8-87fd-d1bc925e3dc1" width="300" height="200">
+<img src="https://github.com/a86423387/Bible_Game/assets/130199998/7f947e64-49a9-42f8-87fd-d1bc925e3dc1" width="300" height="300">
+<img src="https://github.com/a86423387/Bible_Game/assets/130199998/3144c45d-fcaa-4de8-8af6-0ddf3d114b10" width="300" height="300">
+<img src="https://github.com/a86423387/Bible_Game/assets/130199998/3ebedb85-8ddf-48f0-ad01-31af51b76647" width="300" height="300">
+
+
+
 
 
 ---
 
 # Bible_Game
 
-Bible_Game 是一個基於 Java 的小型文字遊戲，通過控制角色 Moses 在不同場景中進行移動和攻擊，挑戰各種障礙，完成遊戲任務。
+Bible_Game 是一個基於 Java 的遊戲，通過控制角色 Moses 在不同場景中進行移動和攻擊，挑戰各種障礙，完成遊戲任務。
 
 ## 遊戲介紹
 
