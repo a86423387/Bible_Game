@@ -56,19 +56,29 @@ public class Main extends JPanel implements KeyListener {
     }
 
     public static void main(String[] args) {
+        // 顯示遊戲開始訊息
         JOptionPane.showMessageDialog(null, "遊戲開始了！請按下方向鍵控制角色移動" +
                 "和WASD作為攻擊的方向鍵。");
+        // 建立遊戲視窗
         JFrame window = new JFrame();
+        // 設置關閉視窗時的操作
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        // 將遊戲畫面設置為主視窗的內容面板
         window.setContentPane(new Main());
+        // 調整視窗大小以適應內容
         window.pack();
+        // 將視窗置於螢幕中央
         window.setLocationRelativeTo(null);
+        // 顯示視窗
         window.setVisible(true);
+        // 禁止改變視窗大小
         window.setResizable(false);
+        // 顯示遊戲任務訊息
         JOptionPane.showMessageDialog(null, "你的任務是殺死青蛙和甲蟲，通過門到下一關。");
         // 遊戲開始後自動切換到英文輸入法
         switchToEnglishInput();
     }
+
 
     public static void switchToEnglishInput() {
         try {
@@ -103,6 +113,7 @@ public class Main extends JPanel implements KeyListener {
     public void keyTyped(KeyEvent e) {
 
     }
+
 
     @Override
     public void keyPressed(KeyEvent e) {

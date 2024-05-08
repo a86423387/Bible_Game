@@ -1,8 +1,9 @@
 package com.company.GameView;
 
-
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
 import com.company.Main;
@@ -13,6 +14,13 @@ public abstract class GameView {
     protected Door door;
     protected ImageIcon img;
 
+    public GameView() {
+        elements = new ArrayList<>();
+    }
+
+
+
+    // 繪製遊戲畫面
     public void drawView(Graphics g){
         img.paintIcon(null, g, 0, 0);
         g.setColor(new Color(0f, 0f, 0f, .3f));
@@ -22,10 +30,12 @@ public abstract class GameView {
         }
     }
 
+    // 返回門
     public Door getDoor(){
         return this.door;
     }
 
+    // 返回所有元素
     public ArrayList<Sprite> getElements(){
         return this.elements;
     }
